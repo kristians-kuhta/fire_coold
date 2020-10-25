@@ -21,18 +21,17 @@ default: &default
   # https://guides.rubyonrails.org/configuring.html#database-pooling
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
 
-development:
-  <<: *default
-  database: fire_coold_development
-
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
   # When left blank, postgres will use the default role. This is
   # the same name as the operating system user that initialized the database.
-  #username: fire_coold
+  username: fire_coold
 
   # The password associated with the postgres role (username).
-  #password:
+  password: <%= ENV['FIRE_COOLD_DATABASE_PASSWORD'] %>
+development:
+  <<: *default
+  database: fire_coold_development
 
   # Connect on a TCP socket. Omitted by default since the client uses a
   # domain socket that doesn't need configuration. Windows does not have
@@ -81,5 +80,3 @@ test:
 production:
   <<: *default
   database: fire_coold_production
-  username: fire_coold
-  password: <%= ENV['FIRE_COOLD_DATABASE_PASSWORD'] %>
