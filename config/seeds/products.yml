@@ -1,0 +1,13 @@
+---
+- name: Gibson Doves in Flight AC
+  slug: Gibson Doves in Flight AC
+  image: 'config/seeds/product_images/gibson.jpg'
+  price: 609900
+- name: Fender Jimi Hendrix Stratocaster Relic
+  slug: Fender-Jimi-Hendrix-Stratocaster-Relic
+  image: 'config/seeds/product_images/fender.jpg'
+  price: 639900
+- name: Deering Gabriella 5-String Banjo
+  slug: Deering-Gabriella-5-String-Banjo
+  image: 'config/seeds/product_images/banjo.jpg'
+  price: 2999900
