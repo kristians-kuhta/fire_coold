@@ -1,0 +1,12 @@
+.product
+  .product-image
+    = image_tag @product.image
+  .product-information
+    .product-name
+      = @product.name
+    .product-description
+      = @product.description
+    .product-price
+      = number_to_currency(@product.price/100.0)
+    .product-add-to-card-btn
+      = button_tag t('buttons.add_to_cart'), class: 'btn btn__add-to-cart'

@@ -30,4 +30,6 @@
 # available at https://guides.rubyonrails.org/i18n.html.
 
 en:
+  buttons:
+    add_to_cart: Add to cart
   products: Products

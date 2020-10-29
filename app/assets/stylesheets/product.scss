@@ -1,0 +1,38 @@
+.product {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+  margin: 5rem;
+
+  & img {
+    max-width: 500px;
+    max-height: 500px;
+  }
+}
+
+.product-information {
+  margin: 5rem;
+}
+
+.product-name {
+  font-size: 25px;
+  color: #000;
+  margin-bottom: 25px;
+}
+
+.product-description {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 20px;
+}
+
+.product-price {
+  font-size: 20px;
+  color: red;
+  margin-bottom: 20px;
+}
