@@ -1,13 +1,37 @@
 ---
 - name: Gibson Doves in Flight AC
-  slug: Gibson Doves in Flight AC
+  slug: Gibson-Doves-in-Flight-AC
   image: 'config/seeds/product_images/gibson.jpg'
   price: 609900
+  description: >-
+    The Doves in Flight incorporates the features of the legendary Dove with some of the finest
+    decorative work in the industry. The Doves in Flight displays 28 individually engraved dove
+    inlays—seven on the headstock, 16 on the fingerboard, three on the pick guard, and two on
+    the bridge—each with its own original design. Each tuner knob is hand engraved for full detail.
+    Now hand built using premium ebony on the fingerboard and bridge.
 - name: Fender Jimi Hendrix Stratocaster Relic
   slug: Fender-Jimi-Hendrix-Stratocaster-Relic
   image: 'config/seeds/product_images/fender.jpg'
   price: 639900
+  description: >-
+    The legendary Woodstock Festival was 50 years ago. The festival marked the final breakthrough
+    for Jimi Hendrix.
+
+    The instrument on which he played 'Star Spangled Banner' and 'Izabella' was reproduced in great
+    detail by the Fender Custom Shop.
+
+    It is now offered exclusively and limited to 250 pieces worldwide.
 - name: Deering Gabriella 5-String Banjo
   slug: Deering-Gabriella-5-String-Banjo
   image: 'config/seeds/product_images/banjo.jpg'
   price: 2999900
+  description: >-
+    The ultimate combination of luxurious beauty and incredible sound - the sparkle of the mother of
+    pearl fingerboard is breath-taking like opening a box of jewels when you open the case and the
+    tone of the Gabriella is outstanding.
+
+    The Gabriella is the very top of the Deering line.
+
+    We reserve the most highly figured English walnut for the neck and rare pieces of exotic burl
+    walnut veneer for the resonator. The beautiful burl veneer on the resonator is the same veneer
+    as used on the inside of a Rolls Royce.
