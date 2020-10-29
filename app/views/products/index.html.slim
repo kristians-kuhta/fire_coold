@@ -1,0 +1,16 @@
+.grid-list
+  .grid-list__title
+    = t('products')
+  .grid-list__items
+    - (@products.to_a*2).each do |product|
+      .grid-list-item
+        .grid-list-item__image
+          = link_to product_path(product.slug) do
+            = image_tag product.image
+        .grid-list-item__title
+          = link_to product_path(product.slug) do
+            = product.name
+        .grid-list-item__price
+          = number_to_currency(product.price/100.0)
+        .grid-list-item__description
+          = truncate(product.description, length: 128)
