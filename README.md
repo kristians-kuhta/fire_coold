@@ -3,7 +3,8 @@
 An eCommerce store written in Ruby on Rails.
 
 
-![fire-coold-index](docs/fire_coold_index.png)
+<img src="docs/fire_coold_index.png" alt="fire_coold_index" width="50%" height="auto">
+<img src="docs/fire_coold_show.png" alt="fire_coold_show" width="50%" height="auto">
 
 ## Getting started
 
