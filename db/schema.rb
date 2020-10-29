@@ -40,6 +40,7 @@ ActiveRecord::Schema.define(version: 2020_10_25_172833) do
     t.string "name", limit: 256, null: false
     t.string "slug", limit: 1024, null: false
     t.integer "price", null: false, comment: "Price in cents"
+    t.string "description", limit: 8192
     t.index ["name", "slug"], name: "index_products_on_name_and_slug", unique: true
   end
 

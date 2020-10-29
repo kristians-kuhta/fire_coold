@@ -6,6 +6,7 @@ class CreateProducts < ActiveRecord::Migration[6.0]
       t.string :name, null: false, limit: 256
       t.string :slug, null: false, limit: 1024
       t.integer :price, null: false, comment: 'Price in cents'
+      t.string :description, limit: 8192
     end
 
     add_index :products, [:name, :slug], unique: true
